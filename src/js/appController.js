@@ -11,7 +11,6 @@
 define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojresponsiveutils', 'ojs/ojresponsiveknockoututils', 'ojs/ojcorerouter', 'ojs/ojmodulerouter-adapter', 'ojs/ojknockoutrouteradapter', 'ojs/ojurlparamadapter', 'ojs/ojarraydataprovider', 'ojs/ojknockouttemplateutils', 'ojs/ojmodule-element', 'ojs/ojknockout'],
   function(ko, moduleUtils, ResponsiveUtils, ResponsiveKnockoutUtils, CoreRouter, ModuleRouterAdapter, KnockoutRouterAdapter, UrlParamAdapter, ArrayDataProvider, KnockoutTemplateUtils) {
      function ControllerViewModel() {
-
         this.KnockoutTemplateUtils = KnockoutTemplateUtils;
 
         // Handle announcements sent when pages change, for Accessibility.
@@ -30,11 +29,8 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojresponsiveutils', 'ojs/
       this.smScreen = ResponsiveKnockoutUtils.createMediaQueryObservable(smQuery);
 
       let navData = [
-        { path: '', redirect: 'dashboard' },
-        { path: 'dashboard', detail: { label: 'Dashboard', iconClass: 'oj-ux-ico-bar-chart' } },
-        { path: 'incidents', detail: { label: 'Incidents', iconClass: 'oj-ux-ico-fire' } },
-        { path: 'customers', detail: { label: 'Customers', iconClass: 'oj-ux-ico-contact-group' } },
-        { path: 'about', detail: { label: 'About', iconClass: 'oj-ux-ico-information-s' } }
+        { path: '', redirect: 'senat' },
+        { path: 'senat', detail: { label: 'Senat', iconClass: 'oj-ux-ico-bar-chart' } }
       ];
       // Router setup
       let router = new CoreRouter(navData, {
@@ -52,18 +48,52 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojresponsiveutils', 'ojs/
 
       // Header
       // Application Name used in Branding Area
-      this.appName = ko.observable("App Name");
-      // User Info used in Global Navigation area
-      this.userLogin = ko.observable("john.hancock@oracle.com");
+      this.appName = ko.observable("Candidaţi - Senat și Camera Deputaților - 6 Decembrie 2020");
+      document.title = this.appName();
 
       // Footer
       this.footerLinks = [
-        {name: 'About Oracle', linkId: 'aboutOracle', linkTarget:'http://www.oracle.com/us/corporate/index.html#menu-about'},
-        { name: "Contact Us", id: "contactUs", linkTarget: "http://www.oracle.com/us/corporate/contact/index.html" },
-        { name: "Legal Notices", id: "legalNotices", linkTarget: "http://www.oracle.com/us/legal/index.html" },
-        { name: "Terms Of Use", id: "termsOfUse", linkTarget: "http://www.oracle.com/us/legal/terms/index.html" },
-        { name: "Your Privacy Rights", id: "yourPrivacyRights", linkTarget: "http://www.oracle.com/us/legal/privacy/index.html" },
+        {name: 'Candidati - BIROUL ELECTORAL CENTRAL', linkId: 'candidati', linkTarget:'https://parlamentare2020.bec.ro/candidati/'}
       ];
+
+      /*
+       *
+       */
+      self.judet      = ko.observable();
+      self.judete     = ko.observableArray();
+
+      // Obtine judete...
+      $.getJSON('json/judete.json')
+        .done(function(data) {
+          // Judete...
+          self.judete(
+            $.map(data, function(item) {
+              return { "label": item.nume, "value": item.cod };
+            })
+          );
+        });
+
+      /*
+       * Judete (drop-down handler)...
+       */
+      self.judetSchimba = function(event, data) {
+        if ((event.detail.value && !event.detail.previousValue)
+          || (event.detail.value && event.detail.previousValue && event.detail.value != event.detail.previousValue)) {
+
+        }
+      };
+
+      /*
+       * Stocheaza noi parametrii in URL
+       */
+      self.schimbaParametriiInURL = function() {
+          if (self.judet() && self.localitate()) {
+             var queryParams = new URLSearchParams();
+             queryParams.set('judet',      self.judet());
+             queryParams.set('localitate', self.localitate());
+             window.history.replaceState({}, '', '?' + queryParams);
+          }
+      }
      }
 
      return new ControllerViewModel();
