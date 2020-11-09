@@ -1,0 +1,55 @@
+<div class="oj-hybrid-padding">
+    <h4>lista</h4>
+
+    <oj-combobox-one id="comboboxJudete" label-hint="Județ" label-edge="inside"
+                     options="{{judete}}"
+                     value="{{judet}}"
+                     on-value-changed="[[judetSchimba]]"
+                     style="max-width: 20em">
+    </oj-combobox-one>
+
+    <div id="masonrylayout-basic-example">
+        <div class="demo-scroll-container">
+            <oj-masonry-layout id="masonryLayout">
+                <oj-bind-for-each data="[[senatoriDataProvider]]">
+                    <template data-oj-as="lista">
+                        <div :id="[[lista.index]]" class="oj-panel oj-panel-shadow-sm oj-bg-neutral-0 oj-masonrylayout-tile-2x1">
+                            <div class="oj-flex">
+                                <span class="oj-flex-item oj-sm-flex-1 oj-sm-margin-1x-top">
+                                  <oj-bind-if test="[[lista.data.partid.website]]">
+                                    <a :href="[[lista.data.partid.website]]" target="_blank">
+                                      <oj-bind-text value="[[lista.data.partid.nume]]"></oj-bind-text>
+                                    </a>
+                                  </oj-bind-if>
+                                  <oj-bind-if test="[[!lista.data.partid.website && lista.data.partid.facebook]]">
+                                    <a :href="[[lista.data.partid.facebook]]" target="_blank">
+                                      <oj-bind-text value="[[lista.data.partid.nume]]"></oj-bind-text>
+                                    </a>
+                                  </oj-bind-if>
+                                  <oj-bind-if test="[[!lista.data.partid.website && !lista.data.partid.facebook]]">
+                                    <oj-bind-text value="[[lista.data.partid.nume]]"></oj-bind-text>
+                                  </oj-bind-if>
+                                </span>
+                                <span class="oj-flex-item oj-sm-flex-0">
+                                    <img :src="[['/css/images/partide/' + lista.data.partid.cod + '.png']]"></img>
+                                </span>
+                            </div>
+                            <div>
+                                <oj-bind-for-each data="[[lista.data.candidati]]">
+                                    <template data-oj-as="candidat">
+                                        <div>
+                                            <oj-bind-text value="[[candidat.data.pozitie]]"></oj-bind-text>.
+                                            <a class="oj-flex-item" :href="[['https://google.com/search?q=' + candidat.data.nume]]" target="_blank">
+                                                <oj-bind-text value="[[candidat.data.nume]]"></oj-bind-text>
+                                            </a>
+                                        </div>
+                                    </template>
+                                </oj-bind-for-each>
+                            </div>
+                        </div>
+                    </template>
+                </oj-bind-for-each>
+            </oj-masonry-layout>
+        </div>
+    </div>
+</div>
