@@ -30,8 +30,8 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojresponsiveutils', 'ojs/
 
       let navData = [
         { path: '',      redirect: 'senat' },
-        { path: 'senat', detail: { label: 'Senat',              iconClass: 'oj-ux-ico-bar-chart' } },
-        { path: 'cdep',  detail: { label: 'Camera Deputaților', iconClass: 'oj-ux-ico-bar-chart' } }
+        { path: 'senat', detail: { label: 'Senat',              iconClass: 'oj-ux-ico-contact-group' } },
+        { path: 'cdep',  detail: { label: 'Camera Deputaților', iconClass: 'oj-ux-ico-contact-group' } }
       ];
       // Router setup
       let router = new CoreRouter(navData, {
@@ -92,6 +92,14 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojresponsiveutils', 'ojs/
           }
       }
      }
+
+     /*
+      * Parametri?
+      */
+     setTimeout(function() {
+       const params = new URLSearchParams(window.location.search);
+       if (params.has('judet')) { self.judet(params.get('judet')); }
+     }, 1000);
 
      return new ControllerViewModel();
   }

@@ -81,4 +81,34 @@
 }, {
   "cod" : "INDEP",
   "nume" : "Candidat Independent"
+}, {
+  "cod" : "PCNPCR",
+  "nume" : "Partidul Comuniştilor",
+  "facebook" : "https://www.facebook.com/PartidulComunistilor/"
+}, {
+  "cod" : "PCNPCR",
+  "nume" : "Partidul Comuniştilor",
+  "facebook" : "https://www.facebook.com/PartidulComunistilor/"
+}, {
+  "cod" : "PNTMM",
+  "nume" : "Partidul Național Țărănesc Maniu-Mihalache",
+  "facebook" : "https://www.facebook.com/PNT.MANIUMIHALACHE/"
+}, {
+  "cod" : "PFN",
+  "nume" : "Partidul Forța Națională",
+  "facebook" : "https://www.facebook.com/fortanationala/"
+}, {
+  "cod" : "AD",
+  "nume" : "Partidul Alternativa Dreaptă",
+  "website" : "https://alternativadreapta.ro"
+}, {
+  "cod" : "PRSR",
+  "nume" : "Partidul RE:START ROMÂNIA",
+  "website" : "https://restart-romania.ro",
+  "facebook" : "https://www.facebook.com/PartidulRestartRomania/"
+}, {
+  "cod" : "BUN",
+  "nume" : "Partidul Blocul Unității Naționale",
+  "website" : "https://partidulbun.ro",
+  "facebook" : "https://www.facebook.com/partidulbun/"
 } ]

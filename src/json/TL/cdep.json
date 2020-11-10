@@ -1,0 +1,269 @@
+[ {
+  "partid" : {
+    "cod" : "UDMR",
+    "nume" : "Uniunea Democrată Maghiară din România",
+    "website" : "http://udmr.ro/"
+  },
+  "candidati" : [ {
+    "nume" : "Bors Béla",
+    "pozitie" : 1
+  }, {
+    "nume" : "Lakatos Emőke",
+    "pozitie" : 2
+  }, {
+    "nume" : "Albert Alfonz-Pál",
+    "pozitie" : 3
+  }, {
+    "nume" : "Cilip Árpád",
+    "pozitie" : 4
+  }, {
+    "nume" : "Gál Attila",
+    "pozitie" : 5
+  }, {
+    "nume" : "Tamási Dezső",
+    "pozitie" : 6
+  } ]
+}, {
+  "partid" : {
+    "cod" : "PMP",
+    "nume" : "Partidul Mișcarea Populară",
+    "website" : "https://pmponline.ro",
+    "facebook" : "https://www.facebook.com/PartidulMiscareaPopulara.RO/"
+  },
+  "candidati" : [ {
+    "nume" : "Tarhon Victor",
+    "pozitie" : 1
+  }, {
+    "nume" : "Spiru Valentin",
+    "pozitie" : 2
+  }, {
+    "nume" : "Vrămuleţ Grigore",
+    "pozitie" : 3
+  }, {
+    "nume" : "Cozma Victoria",
+    "pozitie" : 4
+  }, {
+    "nume" : "Condratov Daniela",
+    "pozitie" : 5
+  }, {
+    "nume" : "Maxim Mitrea",
+    "pozitie" : 6
+  } ]
+}, {
+  "partid" : {
+    "cod" : "USR-PLUS",
+    "nume" : "Alianța USR PLUS",
+    "website" : "https://usrplus.ro",
+    "facebook" : "https://www.facebook.com/alianta2020usrplus/"
+  },
+  "candidati" : [ {
+    "nume" : "Terente Eugen",
+    "pozitie" : 1
+  }, {
+    "nume" : "Averian Alexandru",
+    "pozitie" : 2
+  }, {
+    "nume" : "Miron Valentin",
+    "pozitie" : 3
+  }, {
+    "nume" : "Porneală Sergiu-Cristian",
+    "pozitie" : 4
+  }, {
+    "nume" : "Grecu Răzvan",
+    "pozitie" : 5
+  }, {
+    "nume" : "Smolei Aurora",
+    "pozitie" : 6
+  } ]
+}, {
+  "partid" : {
+    "cod" : "PRO",
+    "nume" : "Partidul PRO Romania",
+    "website" : "https://proromania.ro",
+    "facebook" : "https://www.facebook.com/ProRomaniaOficial/"
+  },
+  "candidati" : [ {
+    "nume" : "Zibileanu Ştefana",
+    "pozitie" : 1
+  }, {
+    "nume" : "Popa Octavian-Marius",
+    "pozitie" : 2
+  }, {
+    "nume" : "Cilighidreanu Neculai",
+    "pozitie" : 3
+  }, {
+    "nume" : "Pascale Florin",
+    "pozitie" : 4
+  }, {
+    "nume" : "Vătafu Alexandru",
+    "pozitie" : 5
+  }, {
+    "nume" : "Mocanu Laurenţiu",
+    "pozitie" : 6
+  } ]
+}, {
+  "partid" : {
+    "cod" : "PNL",
+    "nume" : "Partidul Național Liberal",
+    "website" : "https://pnl.ro",
+    "facebook" : "https://www.facebook.com/pnl.ro"
+  },
+  "candidati" : [ {
+    "nume" : "Şişcu George",
+    "pozitie" : 1
+  }, {
+    "nume" : "Gudu Michael",
+    "pozitie" : 2
+  }, {
+    "nume" : "Săcui Doina",
+    "pozitie" : 3
+  }, {
+    "nume" : "Vasilescu Bogdan",
+    "pozitie" : 4
+  }, {
+    "nume" : "Iancu Alina",
+    "pozitie" : 5
+  }, {
+    "nume" : "Procop Camelia-Maria",
+    "pozitie" : 6
+  } ]
+}, {
+  "partid" : {
+    "cod" : "PSD",
+    "nume" : "Partidul Social Democrat",
+    "website" : "https://psd.ro",
+    "facebook" : "https://www.facebook.com/PartidulSocialDemocrat"
+  },
+  "candidati" : [ {
+    "nume" : "Furtună Mirela",
+    "pozitie" : 1
+  }, {
+    "nume" : "Luca Andaluzia",
+    "pozitie" : 2
+  }, {
+    "nume" : "Avram Marian",
+    "pozitie" : 3
+  }, {
+    "nume" : "Simion Lucian-Eduard",
+    "pozitie" : 4
+  }, {
+    "nume" : "Radu Anişoara",
+    "pozitie" : 5
+  }, {
+    "nume" : "Vâlcu Dumitru",
+    "pozitie" : 6
+  } ]
+}, {
+  "partid" : {
+    "cod" : "PPU",
+    "nume" : "Partidul Puterii Umaniste (social - liberal)",
+    "website" : "https://ppusl.ro",
+    "facebook" : "https://www.facebook.com/partidulputeriiumaniste/"
+  },
+  "candidati" : [ {
+    "nume" : "Sadîca Mihăiţă",
+    "pozitie" : 1
+  }, {
+    "nume" : "Mocanu Mihaela Carmen",
+    "pozitie" : 2
+  }, {
+    "nume" : "Nurciu Narcis",
+    "pozitie" : 3
+  }, {
+    "nume" : "Sadîca Isabela",
+    "pozitie" : 4
+  }, {
+    "nume" : "Giuglan Ioan-Cătălin",
+    "pozitie" : 5
+  }, {
+    "nume" : "Toma George-Cătălin",
+    "pozitie" : 6
+  } ]
+}, {
+  "partid" : {
+    "cod" : "PRM",
+    "nume" : "Partidul România Mare",
+    "facebook" : "https://www.facebook.com/PartidulRomaniaMare"
+  },
+  "candidati" : [ {
+    "nume" : "Sidor Tănase",
+    "pozitie" : 1
+  }, {
+    "nume" : "Stoian Marian-Valentin",
+    "pozitie" : 2
+  }, {
+    "nume" : "Babic Vasile",
+    "pozitie" : 3
+  } ]
+}, {
+  "partid" : {
+    "cod" : "PER",
+    "nume" : "Partidul Ecologist Român",
+    "website" : "https://per.ro",
+    "facebook" : "https://www.facebook.com/PartidulEcologistRoman/"
+  },
+  "candidati" : [ {
+    "nume" : "Stan Ionel",
+    "pozitie" : 1
+  }, {
+    "nume" : "Coman Ştefan",
+    "pozitie" : 2
+  }, {
+    "nume" : "Bibică Gabriela",
+    "pozitie" : 3
+  }, {
+    "nume" : "Simion Dragoş",
+    "pozitie" : 4
+  }, {
+    "nume" : "Petrea Dan",
+    "pozitie" : 5
+  }, {
+    "nume" : "Raţă Silviu",
+    "pozitie" : 6
+  } ]
+}, {
+  "partid" : {
+    "cod" : "AUR",
+    "nume" : "Partidul Alianța pentru Unirea Românilor",
+    "website" : "https://partidulaur.ro",
+    "facebook" : "https://www.facebook.com/partidulAUR/"
+  },
+  "candidati" : [ {
+    "nume" : "Doboş Elena",
+    "pozitie" : 1
+  }, {
+    "nume" : "Platon Paul-Andrei",
+    "pozitie" : 2
+  }, {
+    "nume" : "Condrat Cristian",
+    "pozitie" : 3
+  }, {
+    "nume" : "Blebea Răzvan",
+    "pozitie" : 4
+  }, {
+    "nume" : "Tudorache Daniela",
+    "pozitie" : 5
+  } ]
+}, {
+  "partid" : {
+    "cod" : "PNRO",
+    "nume" : "Partidul Noua Românie",
+    "website" : "https://partidulnouaromanie.ro",
+    "facebook" : "https://www.facebook.com/nouaromaniePNR/"
+  },
+  "candidati" : [ {
+    "nume" : "Bibirig Ancuţa-Iuliana",
+    "pozitie" : 1
+  } ]
+}, {
+  "partid" : {
+    "cod" : "PV",
+    "nume" : "Partidul Verde",
+    "website" : "https://partidulverde.ro",
+    "facebook" : "https://www.facebook.com/Partidul.Verde/"
+  },
+  "candidati" : [ {
+    "nume" : "Ghionu Ovidiu",
+    "pozitie" : 1
+  } ]
+} ]

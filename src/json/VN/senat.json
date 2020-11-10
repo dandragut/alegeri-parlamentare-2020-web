@@ -1,0 +1,180 @@
+[ {
+  "partid" : {
+    "cod" : "PSD",
+    "nume" : "Partidul Social Democrat",
+    "website" : "https://psd.ro",
+    "facebook" : "https://www.facebook.com/PartidulSocialDemocrat"
+  },
+  "candidati" : [ {
+    "nume" : "Tîlvăr Angel",
+    "pozitie" : 1
+  }, {
+    "nume" : "Dumitrescu Cristian-Sorin",
+    "pozitie" : 2
+  }, {
+    "nume" : "Ailincuţei Lauriana",
+    "pozitie" : 3
+  }, {
+    "nume" : "Matişan Bogdan-Emilian",
+    "pozitie" : 4
+  } ]
+}, {
+  "partid" : {
+    "cod" : "UDMR",
+    "nume" : "Uniunea Democrată Maghiară din România",
+    "website" : "http://udmr.ro/"
+  },
+  "candidati" : [ {
+    "nume" : "Kiss István",
+    "pozitie" : 1
+  }, {
+    "nume" : "Maior András-Lajos",
+    "pozitie" : 2
+  }, {
+    "nume" : "Bege László Balázs",
+    "pozitie" : 3
+  }, {
+    "nume" : "Mărgăi Csilla",
+    "pozitie" : 4
+  } ]
+}, {
+  "partid" : {
+    "cod" : "USR-PLUS",
+    "nume" : "Alianța USR PLUS",
+    "website" : "https://usrplus.ro",
+    "facebook" : "https://www.facebook.com/alianta2020usrplus/"
+  },
+  "candidati" : [ {
+    "nume" : "Purluca Florin",
+    "pozitie" : 1
+  }, {
+    "nume" : "Caba Gina",
+    "pozitie" : 2
+  }, {
+    "nume" : "Serea Mirela-Doina",
+    "pozitie" : 3
+  }, {
+    "nume" : "Negruţ Augustin",
+    "pozitie" : 4
+  } ]
+}, {
+  "partid" : {
+    "cod" : "PNL",
+    "nume" : "Partidul Național Liberal",
+    "website" : "https://pnl.ro",
+    "facebook" : "https://www.facebook.com/pnl.ro"
+  },
+  "candidati" : [ {
+    "nume" : "Ioan Raluca-Gabriela",
+    "pozitie" : 1
+  }, {
+    "nume" : "Lambrinó Eduard",
+    "pozitie" : 2
+  }, {
+    "nume" : "Nedelcu Florin",
+    "pozitie" : 3
+  }, {
+    "nume" : "Drăguşanu Eugenia",
+    "pozitie" : 4
+  } ]
+}, {
+  "partid" : {
+    "cod" : "PMP",
+    "nume" : "Partidul Mișcarea Populară",
+    "website" : "https://pmponline.ro",
+    "facebook" : "https://www.facebook.com/PartidulMiscareaPopulara.RO/"
+  },
+  "candidati" : [ {
+    "nume" : "Guţu Ana",
+    "pozitie" : 1
+  }, {
+    "nume" : "Micu-Iliescu Elena-Georgeta",
+    "pozitie" : 2
+  }, {
+    "nume" : "Vulcan Dănuţ",
+    "pozitie" : 3
+  }, {
+    "nume" : "Samoilă Cristinel",
+    "pozitie" : 4
+  } ]
+}, {
+  "partid" : {
+    "cod" : "PRO",
+    "nume" : "Partidul PRO Romania",
+    "website" : "https://proromania.ro",
+    "facebook" : "https://www.facebook.com/ProRomaniaOficial/"
+  },
+  "candidati" : [ {
+    "nume" : "Barbu Cristian",
+    "pozitie" : 1
+  }, {
+    "nume" : "Ţoni Viorel-Lary",
+    "pozitie" : 2
+  }, {
+    "nume" : "Rotaru Nicolae",
+    "pozitie" : 3
+  }, {
+    "nume" : "Mironică Ionuţ",
+    "pozitie" : 4
+  } ]
+}, {
+  "partid" : {
+    "cod" : "AUR",
+    "nume" : "Partidul Alianța pentru Unirea Românilor",
+    "website" : "https://partidulaur.ro",
+    "facebook" : "https://www.facebook.com/partidulAUR/"
+  },
+  "candidati" : [ {
+    "nume" : "Roşu Ilie",
+    "pozitie" : 1
+  }, {
+    "nume" : "Damian Nicolae",
+    "pozitie" : 2
+  }, {
+    "nume" : "Spulber Maricel",
+    "pozitie" : 3
+  }, {
+    "nume" : "Ţigănuş Nela",
+    "pozitie" : 4
+  } ]
+}, {
+  "partid" : {
+    "cod" : "PER",
+    "nume" : "Partidul Ecologist Român",
+    "website" : "https://per.ro",
+    "facebook" : "https://www.facebook.com/PartidulEcologistRoman/"
+  },
+  "candidati" : [ {
+    "nume" : "Tudorache Liviu-Dorinel",
+    "pozitie" : 1
+  }, {
+    "nume" : "Ghenuche Daniela",
+    "pozitie" : 2
+  }, {
+    "nume" : "Mocanu Carmen",
+    "pozitie" : 3
+  }, {
+    "nume" : "Ghenuche Lucia",
+    "pozitie" : 4
+  } ]
+}, {
+  "partid" : {
+    "cod" : "PPU",
+    "nume" : "Partidul Puterii Umaniste (social - liberal)",
+    "website" : "https://ppusl.ro",
+    "facebook" : "https://www.facebook.com/partidulputeriiumaniste/"
+  },
+  "candidati" : [ {
+    "nume" : "Gogoriţă Constantin",
+    "pozitie" : 1
+  }, {
+    "nume" : "Bari Ileana",
+    "pozitie" : 2
+  }, {
+    "nume" : "Lovin Cătălin-Marian",
+    "pozitie" : 3
+  }, {
+    "nume" : "Radu Irina-Mihaela",
+    "pozitie" : 4
+  } ]
+} ]

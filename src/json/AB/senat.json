@@ -1,71 +1,20 @@
 [ {
   "partid" : {
-    "cod" : "AUR",
-    "nume" : "Partidul Alianța pentru Unirea Românilor",
-    "website" : "https://partidulaur.ro",
-    "facebook" : "https://www.facebook.com/partidulAUR/"
+    "cod" : "UDMR",
+    "nume" : "Uniunea Democrată Maghiară din România",
+    "website" : "http://udmr.ro/"
   },
   "candidati" : [ {
-    "nume" : "Topîrcean Anca",
+    "nume" : "Lörincz Helga",
     "pozitie" : 1
   }, {
-    "nume" : "Opruţa Daniel",
+    "nume" : "Fűlőp Szabolcs-Simon",
     "pozitie" : 2
   }, {
-    "nume" : "Mărginean Simona",
+    "nume" : "Szőcs Ildico",
     "pozitie" : 3
   }, {
-    "nume" : "Farcaş Vasile",
-    "pozitie" : 4
-  } ]
-}, {
-  "partid" : {
-    "cod" : "ARN",
-    "nume" : "Alianța Renașterea Națională",
-    "website" : "https://aliantarenastereanationala.ro/"
-  },
-  "candidati" : [ {
-    "nume" : "Barna Iosif-Natanael",
-    "pozitie" : 1
-  } ]
-}, {
-  "partid" : {
-    "cod" : "USR-PLUS",
-    "nume" : "Alianța USR PLUS",
-    "website" : "https://usrplus.ro",
-    "facebook" : "https://www.facebook.com/alianta2020usrplus/"
-  },
-  "candidati" : [ {
-    "nume" : "Simion Constantin-Adrian",
-    "pozitie" : 1
-  }, {
-    "nume" : "Mariş Cosmina-Maria",
-    "pozitie" : 2
-  }, {
-    "nume" : "Popescu Emil-Antoniu",
-    "pozitie" : 3
-  }, {
-    "nume" : "Heiuş Daniel",
-    "pozitie" : 4
-  } ]
-}, {
-  "partid" : {
-    "cod" : "PER",
-    "nume" : "Partidul Ecologist Român",
-    "website" : "https://per.ro",
-    "facebook" : "https://www.facebook.com/PartidulEcologistRoman/"
-  },
-  "candidati" : [ {
-    "nume" : "Şuteu Codruţa",
-    "pozitie" : 1
-  }, {
-    "nume" : "Lazăr Ovidiu",
-    "pozitie" : 2
-  }, {
-    "nume" : "Drîmbărean Ioan-Florin",
-    "pozitie" : 3
-  }, {
-    "nume" : "Bibolar Crăciun-Ovidiu",
+    "nume" : "Vincze Andrei",
     "pozitie" : 4
   } ]
 }, {
@@ -90,6 +39,26 @@
   } ]
 }, {
   "partid" : {
+    "cod" : "PSD",
+    "nume" : "Partidul Social Democrat",
+    "website" : "https://psd.ro",
+    "facebook" : "https://www.facebook.com/PartidulSocialDemocrat"
+  },
+  "candidati" : [ {
+    "nume" : "Matieş Călin-Gheorghe",
+    "pozitie" : 1
+  }, {
+    "nume" : "Bara Nicolae-Adrian",
+    "pozitie" : 2
+  }, {
+    "nume" : "Gheorghiţă Delia-Angela",
+    "pozitie" : 3
+  }, {
+    "nume" : "Sava Gheorghe",
+    "pozitie" : 4
+  } ]
+}, {
+  "partid" : {
     "cod" : "PNL",
     "nume" : "Partidul Național Liberal",
     "website" : "https://pnl.ro",
@@ -106,6 +75,26 @@
     "pozitie" : 3
   }, {
     "nume" : "Mocan Maria-Mirela",
+    "pozitie" : 4
+  } ]
+}, {
+  "partid" : {
+    "cod" : "USR-PLUS",
+    "nume" : "Alianța USR PLUS",
+    "website" : "https://usrplus.ro",
+    "facebook" : "https://www.facebook.com/alianta2020usrplus/"
+  },
+  "candidati" : [ {
+    "nume" : "Simion Constantin-Adrian",
+    "pozitie" : 1
+  }, {
+    "nume" : "Mariş Cosmina-Maria",
+    "pozitie" : 2
+  }, {
+    "nume" : "Popescu Emil-Antoniu",
+    "pozitie" : 3
+  }, {
+    "nume" : "Heiuş Daniel",
     "pozitie" : 4
   } ]
 }, {
@@ -150,41 +139,22 @@
   } ]
 }, {
   "partid" : {
-    "cod" : "PRM",
-    "nume" : "Partidul România Mare",
-    "facebook" : "https://www.facebook.com/PartidulRomaniaMare"
+    "cod" : "AUR",
+    "nume" : "Partidul Alianța pentru Unirea Românilor",
+    "website" : "https://partidulaur.ro",
+    "facebook" : "https://www.facebook.com/partidulAUR/"
   },
   "candidati" : [ {
-    "nume" : "Porfire Sergiu",
+    "nume" : "Topîrcean Anca",
     "pozitie" : 1
   }, {
-    "nume" : "Udvar Ecaterina",
+    "nume" : "Opruţa Daniel",
     "pozitie" : 2
   }, {
-    "nume" : "Suciu Graţian",
+    "nume" : "Mărginean Simona",
     "pozitie" : 3
   }, {
-    "nume" : "Stânea Ionel",
-    "pozitie" : 4
-  } ]
-}, {
-  "partid" : {
-    "cod" : "PSD",
-    "nume" : "Partidul Social Democrat",
-    "website" : "https://psd.ro",
-    "facebook" : "https://www.facebook.com/PartidulSocialDemocrat"
-  },
-  "candidati" : [ {
-    "nume" : "Matieş Călin-Gheorghe",
-    "pozitie" : 1
-  }, {
-    "nume" : "Bara Nicolae-Adrian",
-    "pozitie" : 2
-  }, {
-    "nume" : "Gheorghiţă Delia-Angela",
-    "pozitie" : 3
-  }, {
-    "nume" : "Sava Gheorghe",
+    "nume" : "Farcaş Vasile",
     "pozitie" : 4
   } ]
 }, {
@@ -209,21 +179,51 @@
   } ]
 }, {
   "partid" : {
-    "cod" : "UDMR",
-    "nume" : "Uniunea Democrată Maghiară din România",
-    "website" : "http://udmr.ro/"
+    "cod" : "PER",
+    "nume" : "Partidul Ecologist Român",
+    "website" : "https://per.ro",
+    "facebook" : "https://www.facebook.com/PartidulEcologistRoman/"
   },
   "candidati" : [ {
-    "nume" : "Lörincz Helga",
+    "nume" : "Şuteu Codruţa",
     "pozitie" : 1
   }, {
-    "nume" : "Fűlőp Szabolcs-Simon",
+    "nume" : "Lazăr Ovidiu",
     "pozitie" : 2
   }, {
-    "nume" : "Szőcs Ildico",
+    "nume" : "Drîmbărean Ioan-Florin",
     "pozitie" : 3
   }, {
-    "nume" : "Vincze Andrei",
+    "nume" : "Bibolar Crăciun-Ovidiu",
+    "pozitie" : 4
+  } ]
+}, {
+  "partid" : {
+    "cod" : "ARN",
+    "nume" : "Alianța Renașterea Națională",
+    "website" : "https://aliantarenastereanationala.ro/"
+  },
+  "candidati" : [ {
+    "nume" : "Barna Iosif-Natanael",
+    "pozitie" : 1
+  } ]
+}, {
+  "partid" : {
+    "cod" : "PRM",
+    "nume" : "Partidul România Mare",
+    "facebook" : "https://www.facebook.com/PartidulRomaniaMare"
+  },
+  "candidati" : [ {
+    "nume" : "Porfire Sergiu",
+    "pozitie" : 1
+  }, {
+    "nume" : "Udvar Ecaterina",
+    "pozitie" : 2
+  }, {
+    "nume" : "Suciu Graţian",
+    "pozitie" : 3
+  }, {
+    "nume" : "Stânea Ionel",
     "pozitie" : 4
   } ]
 } ]
