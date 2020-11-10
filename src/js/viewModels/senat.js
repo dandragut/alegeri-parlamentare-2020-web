@@ -23,8 +23,11 @@ define(['accUtils', 'knockout', 'ojs/ojbootstrap', 'ojs/ojarraydataprovider', 'o
             function getSenatori(self) {
                 $.getJSON(['json', self.judet(), 'senat.json'].join('/'))
                     .done(function(data) {
-                        self.senatori(data);
-                        $("#masonryLayout").ojMasonryLayout('refresh');
+                        self.senatori([]);
+                        setTimeout(function() {
+                            self.senatori(data);
+                            $("#senatoriMasonryLayout").ojMasonryLayout('refresh');
+                        }, 125);
                     })
                     .fail(function() {
                         self.senatori([]);

@@ -23,8 +23,11 @@ define(['accUtils', 'knockout', 'ojs/ojbootstrap', 'ojs/ojarraydataprovider', 'o
             function getDeputati(self) {
                 $.getJSON(['json', self.judet(), 'cdep.json'].join('/'))
                     .done(function(data) {
-                        self.deputati(data);
-                        $("#masonryLayout").ojMasonryLayout('refresh');
+                        self.deputati([]);
+                        setTimeout(function() {
+                            self.deputati(data);
+                            $("#deputatiMasonryLayout").ojMasonryLayout('refresh');
+                        }, 125);
                     })
                     .fail(function() {
                         self.deputati([]);

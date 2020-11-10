@@ -75,6 +75,10 @@
   "nume" : "Uniunea Democrată Maghiară din România",
   "website" : "http://udmr.ro/"
 }, {
+  "cod" : "ARN",
+  "nume" : "Alianța Renașterea Națională",
+  "website" : "https://aliantarenastereanationala.ro/"
+}, {
   "cod" : "INDEP",
   "nume" : "Candidat Independent"
 } ]
