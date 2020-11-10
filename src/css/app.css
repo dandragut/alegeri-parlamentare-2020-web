@@ -1,4 +1,4 @@
-/*
+a/*
     Document   : override
     Created on : <date>
     Author     : <author>
@@ -13,4 +13,13 @@
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+
+.oj-navigationlist-item {
+  min-width: 13rem;
+}
+
+.oj-masonrylayout-tile-1x2 {
+  margin-left: 0;
+  margin-right: 0.75rem;
 }

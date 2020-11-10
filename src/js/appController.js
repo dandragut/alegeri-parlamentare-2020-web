@@ -29,8 +29,9 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojresponsiveutils', 'ojs/
       this.smScreen = ResponsiveKnockoutUtils.createMediaQueryObservable(smQuery);
 
       let navData = [
-        { path: '', redirect: 'senat' },
-        { path: 'senat', detail: { label: 'Senat', iconClass: 'oj-ux-ico-bar-chart' } }
+        { path: '',      redirect: 'senat' },
+        { path: 'senat', detail: { label: 'Senat',              iconClass: 'oj-ux-ico-bar-chart' } },
+        { path: 'cdep',  detail: { label: 'Camera Deputaților', iconClass: 'oj-ux-ico-bar-chart' } }
       ];
       // Router setup
       let router = new CoreRouter(navData, {
@@ -76,21 +77,17 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojresponsiveutils', 'ojs/
       /*
        * Judete (drop-down handler)...
        */
-      self.judetSchimba = function(event, data) {
-        if ((event.detail.value && !event.detail.previousValue)
-          || (event.detail.value && event.detail.previousValue && event.detail.value != event.detail.previousValue)) {
-
-        }
-      };
+      self.judet.subscribe(function(judet) {
+        schimbaParametriiInURL();
+      });
 
       /*
        * Stocheaza noi parametrii in URL
        */
       self.schimbaParametriiInURL = function() {
-          if (self.judet() && self.localitate()) {
+          if (self.judet()) {
              var queryParams = new URLSearchParams();
-             queryParams.set('judet',      self.judet());
-             queryParams.set('localitate', self.localitate());
+             queryParams.set('judet', self.judet());
              window.history.replaceState({}, '', '?' + queryParams);
           }
       }

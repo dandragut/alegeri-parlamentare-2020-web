@@ -1,33 +1,33 @@
 define(['accUtils', 'knockout', 'ojs/ojbootstrap', 'ojs/ojarraydataprovider', 'ojs/ojknockout', 'ojs/ojmasonrylayout', 'ojs/ojselectcombobox'],
     function(accUtils, ko, Bootstrap, ArrayDataProvider) {
-        function SenatViewModel() {
+        function CDEPViewModel() {
             /*
              * Data
              */
-            self.senatori             = ko.observableArray();
-            self.senatoriDataProvider = new ArrayDataProvider(self.senatori, { keyAttributes: 'nume' });
+            self.deputati             = ko.observableArray();
+            self.deputatiDataProvider = new ArrayDataProvider(self.deputati, { keyAttributes: 'nume' });
 
             /*
              * Action
              */
             if (self.judet()) {
-                getSenatori(self);
+                getDeputati(self);
             };
             self.judet.subscribe(function() {
-                getSenatori(self);
+                getDeputati(self);
             });
 
             /*
              * Function
              */
-            function getSenatori(self) {
-                $.getJSON(['json', self.judet(), 'senat.json'].join('/'))
+            function getDeputati(self) {
+                $.getJSON(['json', self.judet(), 'cdep.json'].join('/'))
                     .done(function(data) {
-                        self.senatori(data);
+                        self.deputati(data);
                         $("#masonryLayout").ojMasonryLayout('refresh');
                     })
                     .fail(function() {
-                        self.senatori([]);
+                        self.deputati([]);
                     })
             };
         }
@@ -37,6 +37,6 @@ define(['accUtils', 'knockout', 'ojs/ojbootstrap', 'ojs/ojarraydataprovider', 'o
         * return a constructor for the ViewModel so that the ViewModel is constructed
         * each time the view is displayed.
         */
-        return new SenatViewModel();
+        return new CDEPViewModel();
     }
 );

@@ -32,7 +32,7 @@
   "nume" : "Partidul Noua Dreaptă",
   "website" : "https://nouadreapta.org"
 }, {
-  "cod" : "PNR",
+  "cod" : "PNRO",
   "nume" : "Partidul Noua Românie",
   "website" : "https://partidulnouaromanie.ro",
   "facebook" : "https://www.facebook.com/nouaromaniePNR/"
@@ -47,7 +47,7 @@
   "website" : "https://ppusl.ro",
   "facebook" : "https://www.facebook.com/partidulputeriiumaniste/"
 }, {
-  "cod" : "PAM",
+  "cod" : "PRM",
   "nume" : "Partidul România Mare",
   "facebook" : "https://www.facebook.com/PartidulRomaniaMare"
 }, {
@@ -74,4 +74,7 @@
   "cod" : "UDMR",
   "nume" : "Uniunea Democrată Maghiară din România",
   "website" : "http://udmr.ro/"
+}, {
+  "cod" : "INDEP",
+  "nume" : "Candidat Independent"
 } ]

@@ -150,7 +150,7 @@
   } ]
 }, {
   "partid" : {
-    "cod" : "PNR",
+    "cod" : "PNRO",
     "nume" : "Partidul Noua Românie",
     "website" : "https://partidulnouaromanie.ro",
     "facebook" : "https://www.facebook.com/nouaromaniePNR/"
@@ -213,7 +213,7 @@
   } ]
 }, {
   "partid" : {
-    "cod" : "PAM",
+    "cod" : "PRM",
     "nume" : "Partidul România Mare",
     "facebook" : "https://www.facebook.com/PartidulRomaniaMare"
   },
