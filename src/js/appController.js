@@ -54,7 +54,8 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojresponsiveutils', 'ojs/
 
       // Footer
       this.footerLinks = [
-        {name: 'Candidati - BIROUL ELECTORAL CENTRAL', linkId: 'candidati', linkTarget:'https://parlamentare2020.bec.ro/candidati/'}
+        { name: 'parlamentare2020.bec.ro', linkId: 'BEC',    linkTarget: 'https://parlamentare2020.bec.ro/candidati/' },
+        { name: 'GitHub',                  linkId: 'GitHub', linkTarget: 'https://github.com/dandragut/alegeri-parlamentare-2020-web' }
       ];
 
       /*
