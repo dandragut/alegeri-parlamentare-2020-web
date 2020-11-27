@@ -506,13 +506,31 @@
   "candidati" : [ {
     "nume" : "Apostolache Mihai Cristian",
     "pozitie" : 1
-  }, {
+  } ]
+}, {
+  "partid" : {
+    "cod" : "INDEP",
+    "nume" : "Candidat Independent"
+  },
+  "candidati" : [ {
     "nume" : "Bogdan Dumitru",
     "pozitie" : 1
-  }, {
+  } ]
+}, {
+  "partid" : {
+    "cod" : "INDEP",
+    "nume" : "Candidat Independent"
+  },
+  "candidati" : [ {
     "nume" : "Rădulescu Virgil-Florin",
     "pozitie" : 1
-  }, {
+  } ]
+}, {
+  "partid" : {
+    "cod" : "INDEP",
+    "nume" : "Candidat Independent"
+  },
+  "candidati" : [ {
     "nume" : "Duţă Maria-Mihaela",
     "pozitie" : 1
   } ]

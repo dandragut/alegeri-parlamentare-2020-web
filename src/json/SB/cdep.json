@@ -393,7 +393,13 @@
   "candidati" : [ {
     "nume" : "Trăscăian Petru-Vasile",
     "pozitie" : 1
-  }, {
+  } ]
+}, {
+  "partid" : {
+    "cod" : "INDEP",
+    "nume" : "Candidat Independent"
+  },
+  "candidati" : [ {
     "nume" : "Vecerdea Marius-Daniel",
     "pozitie" : 1
   } ]

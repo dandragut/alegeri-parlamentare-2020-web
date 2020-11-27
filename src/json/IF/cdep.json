@@ -390,10 +390,22 @@
   "candidati" : [ {
     "nume" : "Matei Sergiu-Lucian",
     "pozitie" : 1
-  }, {
+  } ]
+}, {
+  "partid" : {
+    "cod" : "INDEP",
+    "nume" : "Candidat Independent"
+  },
+  "candidati" : [ {
     "nume" : "Zmaranda Florin",
     "pozitie" : 1
-  }, {
+  } ]
+}, {
+  "partid" : {
+    "cod" : "INDEP",
+    "nume" : "Candidat Independent"
+  },
+  "candidati" : [ {
     "nume" : "Zainea Cornel",
     "pozitie" : 1
   } ]

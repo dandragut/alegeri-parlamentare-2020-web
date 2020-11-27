@@ -327,7 +327,13 @@
   "candidati" : [ {
     "nume" : "Cioanca Nicolae-Ilie",
     "pozitie" : 1
-  }, {
+  } ]
+}, {
+  "partid" : {
+    "cod" : "INDEP",
+    "nume" : "Candidat Independent"
+  },
+  "candidati" : [ {
     "nume" : "Raţiu Ovidiu-Ioan",
     "pozitie" : 1
   } ]

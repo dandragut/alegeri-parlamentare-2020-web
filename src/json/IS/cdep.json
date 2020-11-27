@@ -676,10 +676,22 @@
   "candidati" : [ {
     "nume" : "David Felicia",
     "pozitie" : 1
-  }, {
+  } ]
+}, {
+  "partid" : {
+    "cod" : "INDEP",
+    "nume" : "Candidat Independent"
+  },
+  "candidati" : [ {
     "nume" : "Holicov Monica",
     "pozitie" : 1
-  }, {
+  } ]
+}, {
+  "partid" : {
+    "cod" : "INDEP",
+    "nume" : "Candidat Independent"
+  },
+  "candidati" : [ {
     "nume" : "Mitoşeriu Ciprian Olimpiu",
     "pozitie" : 1
   } ]

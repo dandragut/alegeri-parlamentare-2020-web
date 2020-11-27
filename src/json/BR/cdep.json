@@ -413,7 +413,13 @@
   "candidati" : [ {
     "nume" : "Tabarac Adrian",
     "pozitie" : 1
-  }, {
+  } ]
+}, {
+  "partid" : {
+    "cod" : "INDEP",
+    "nume" : "Candidat Independent"
+  },
+  "candidati" : [ {
     "nume" : "Calu Neculai",
     "pozitie" : 1
   } ]

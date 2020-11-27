@@ -519,7 +519,13 @@
   "candidati" : [ {
     "nume" : "Ichim Costică-Romică",
     "pozitie" : 1
-  }, {
+  } ]
+}, {
+  "partid" : {
+    "cod" : "INDEP",
+    "nume" : "Candidat Independent"
+  },
+  "candidati" : [ {
     "nume" : "Zamfir-Ignat Ştefan-Costin",
     "pozitie" : 1
   } ]
