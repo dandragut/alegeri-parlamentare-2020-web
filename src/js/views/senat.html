@@ -1,9 +1,11 @@
 <div class="oj-hybrid-padding">
-    <oj-combobox-one id="comboboxJudete" label-hint="Județ" label-edge="inside"
-                     options="{{judete}}"
-                     value="{{judet}}"
-                     style="max-width: 20em">
-    </oj-combobox-one>
+    <oj-select-one
+            label-hint="Județ"
+            class="oj-flex-item oj-padding-start oj-sm-3"
+            options="[[judete]]"
+            value="{{judet}}"
+            minimum-results-for-search="1">
+    </oj-select-one>
 
     <oj-masonry-layout id="senatoriMasonryLayout">
         <oj-bind-for-each data="[[senatoriDataProvider]]">
